@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body{
+    margin:0;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    color:gray;
+    text-align: center;
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+}
+#contact{
+    width: 100%;
+    background-color:palevioletred;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+header
+{
+    font-family:times;
+    text-align: center;
+    color:darkslateblue;
+    font-size: 35px;
+    text-shadow: 4px 4px 5px palevioletred;
+}
+button{
+    font-size: 24px;
+    float:right;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+}
+nav ul li{
+    float: left;
+    width: 15%;
+    border:1px solid palevioletred;
+}
+nav ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    color: palevioletred;
+    display: block;
+    padding: 5% 12%;
+}
+nav ul li a:hover , nav ul li.home a{
+    background-color: palevioletred;
+    color:darkslateblue;
+}
+.mainvideo{
+    padding-bottom: 5%;
+}
+iframe{
+    width:70%;
+    height: 70%;
+}
+
+.left-col{
+    width:55%;
+    float:left;
+    padding:1%;
+}
+.sidebar{
+    width:40%;
+    float:right;
+    padding: 1%;
+}
+.clear{
+    clear: both;
+}
+div h1{
+    color:darkslateblue;
+    font-family: serif;
+    font-size: 40px;
+}
+h3{
+    text-decoration: none;
+}
+.one-third{
+    width: 29%;
+    float: left;
+    padding: 2%;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+    border-color: darkslateblue;
+    color: darkslateblue;
+}
+.right span:hover{
+    background-color: darkslateblue;
+    color:palevioletred;
+}
+footer{
+    background-color: palevioletred;
+    width=100%;
+    padding: 2% 0 4%;
+}
+.connect{
+    font-size: 400%;
+}
+.connect a{
+    color:darkslateblue;
+    padding :3%;
+}
+.connect a:hover{
+    background-color: darkslateblue;
+    color:palevioletred;
+}
+@media (max-width:768px){
+    nav ul{
+        padding-left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        border-left: 0;
+        border-radius: 0;
+    }
+    nav ul li a{
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    iframe{
+        width:70%;
+        height:40%;
+    }
+    .left-col{
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar{
+        width: 100%;
+        padding: 0;
+    }
+    .one-third{
+        width: 100%;
+        padding: 0;
+    }
+    .connect{
+        font-size: 200%;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+}
